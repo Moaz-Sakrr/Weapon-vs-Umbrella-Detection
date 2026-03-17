@@ -1,4 +1,5 @@
 Weapon vs Umbrella Detection using YOLOv8
+
 🔍 Fine-tuned YOLOv8 model to distinguish between a person holding a weapon and a person holding an umbrella — a challenging visual similarity task.
 
 📌 Overview
@@ -46,6 +47,13 @@ train.txt / val.txt – Image splits
 data.yaml – Dataset configuration
 
 🚀 How to Use
+
+## 📥 Download Model Weights
+The trained model weights are available on Google Drive:
+
+🔗 [Download best.pt from Google Drive](https://drive.google.com/drive/folders/1EQpx1zY_83IZ_TbO5_yRcL_okk3YO_vX?usp=sharing)
+
+After downloading, place the file in the project directory.
 Clone the repo
 
 Install dependencies: pip install ultralytics gradio
